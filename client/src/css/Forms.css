@@ -1,0 +1,136 @@
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 130px;
+  padding-bottom: 7%;
+}
+.popout-form-top {
+  background-color: #84754e;
+  height: 60%;
+  align-items: center;
+}
+
+.form-top-container {
+  width: 90%;
+  margin: 20px;
+}
+
+.form-section {
+  margin-bottom: 20px;
+  margin-top: 70px;
+}
+
+.input-container {
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.label-icon-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.form-label {
+  font-weight: bold;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 5px;
+}
+
+.form-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cancel-button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+  color: #000;
+  cursor: pointer;
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #00276e;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit-button.disabled {
+  background-color: #ccc;
+  cursor:not-allowed;
+}
+
+.submit-button.enabled:hover {
+  background-color: #45a049;
+}
+
+.input-container {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px 40px 10px 50px; 
+  border: none;
+  border-radius: 4px;
+}
+
+
+.form-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #011e53;
+}
+
+.error-message {
+  color: red;
+  margin: 1px;
+  font-size: 13px;
+  width: 100%;
+  display: inline-block;
+}
+
+
+.delete-button-container {
+  position:fixed;
+}
+
+.delete-button {
+  width: 65px;
+  margin-left: 500px;
+  background-color: #f44336; /* Red color for delete button */
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.delete-button:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
+
